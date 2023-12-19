@@ -1,16 +1,17 @@
 import React from 'react'
-import { Products } from '../../Products'
+import { PRODUCTS } from '../../Products'
 import { Product } from './Product'
+import './Shop.css'
 
 export const Shop = () => {
   return (
   <div className='shop'>
     <div className='shopTitle'>
-      <h1>Sampy Online Store</h1>
+      <h2>Apple Online Store</h2>
     </div>
     <div className='products'>
-      {Products.map((product) => (
-        <Product data={Products}/>
+      {PRODUCTS.map((product) => (
+        <Product data={product}/>
       ))}
     </div>
   </div>
