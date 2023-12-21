@@ -40,3 +40,9 @@
     margin: 10px;
     cursor: pointer;
 }
+
+.checkout button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
