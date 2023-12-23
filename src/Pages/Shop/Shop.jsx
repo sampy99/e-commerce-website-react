@@ -10,12 +10,13 @@ export const Shop = () => {
       <h2>Apple Online Store</h2>
     </div>
     <div className='products'>
-      {PRODUCTS.map((product) => (
-        <Product data={product}/>
+      {PRODUCTS.map((producti) => (
+        <Product data={producti}/>
       ))}
     </div>
   </div>
   ) 
 }
+
 
 
