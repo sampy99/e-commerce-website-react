@@ -1,0 +1,22 @@
+.contact img{
+    width:100%;   
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact1{
+    width: 700px;
+    height: 150px;
+    display:block;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgb(0,0,0,0.2);
+    border-radius: 25px;
+    margin: 30px;
+    padding-top: 15px;
+}
+
