@@ -8,9 +8,16 @@ export const About = () => {
   <div className='about'>
     <img src={ aboutimg } alt='about image' />
     <h1>About Us</h1>
+
     <div className='ceo'>
+    <div className='ceoimg'>
      <h2>Apple Inc. / Founders</h2>
      <img src={steve} />
+    </div>
+    <div className='ceodescription'>
+     <h3>Steve Jobs</h3>
+     <p>American Businessman</p>
+    </div>
     </div>
   </div>
   )  

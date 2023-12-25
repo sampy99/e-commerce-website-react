@@ -4,5 +4,30 @@
 }
 
 .ceo img{
-    width: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.ceo {
+    display: flex;
+    flex-direction: grid;
+    line-height: 10px;
+    padding-top: 15px;
+}
+
+.ceoimg{
+    padding-left: 40px;
+}
+
+.ceodescription{
+
+    width: 600px;
+    height: 100px;
+    display:block;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgb(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 30px;
+    padding-top: 100px;
+    
 }
