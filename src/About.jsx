@@ -40,7 +40,7 @@ export const About = () => {
      </div>
      <div className='ceo3description'>
      <h3>Ronald Wayne</h3>
-     <p>Technology Entreprenur</p>
+     <p>Business Executive</p>
      </div>
         </div>
 
